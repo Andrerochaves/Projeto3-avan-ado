@@ -5,5 +5,188 @@
 }
 
 body {
-    
+    font-family: 'Poppins';
+}
+
+header {
+    width: 1440px;
+    height: 465px;
+    background: #293241;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h1 {
+    width: 282px;
+    height: 45px;
+    font-family: 'Staatliches';
+    font-size: 36px;
+    margin-top: 107px;
+    margin-left: 579px;
+}
+
+p {
+    width: 391px;
+    height: 46px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-left: 524px;
+    margin-bottom: 2px;
+}
+
+img {
+    margin-left: 579px;
+}
+
+form {
+    width: 750px;
+    height: 1075px;
+    margin-top: 0;
+    padding: 64px;
+    border: 1px solid red; 
+    border-radius: 0 0 20px 20px;
+    background: #FFF;
+    margin-left: 345px;
+    color: #4E4958;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.anti-form {
+    width: 750px;
+    height: 133px;
+    margin-top: 332px;
+    margin-left: 345px;
+    border-radius: 20px 20px 0 0;
+    background: #F67669;
+    color: #FFF;
+    font-family: 'Staatliches';
+    font-size: 24px;    
+    padding: 50px 275px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.input-wrapper label {
+    margin-bottom: 7px;
+}
+
+.input-wrapper label span {
+    color: #C1BCCC;
+    margin-left: 8px;
+}
+
+#nome, #sobrenome, #data, #nome-mentor {
+    width: 300px;
+    height: 55px;
+    border-radius: 8px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    margin-bottom: 18px;
+}
+
+#data {
+    margin-right: 32px;
+}
+
+#email {
+    width: 622px;
+    height: 55px;
+    border-radius: 8px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+}
+
+#hora-final, #hora-inicial {
+    width: 140px;
+    height: 55px;
+    border-radius: 8px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+h3 {
+    color: #253B51;
+    font-family: 'Staatliches';
+    font-size: 24px;
+    font-weight: 400;
+    width: 212px;
+    height: 34px;
+    margin-left: 205px;
+    margin-bottom: 10px;
+}
+
+.h3-2 {
+    color: #253B51;
+    font-family: 'Staatliches';
+    font-size: 24px;
+    font-weight: 400;
+    width: 258px;
+    height: 34px;
+    margin-left: 182px;
+}
+
+hr {
+    width: 622px;
+    height: 1px;
+    margin-bottom: 30px;
+    opacity: 0.2;
+}    
+
+#feedback {
+    width: 622px;
+    height: 167px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+}
+
+#caixaselecao {
+    width: 24px;
+    height: 24px;
+}
+
+.col-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+button {
+    display: flex;
+    width: 622px;
+    height: 51px;
+    padding: 15px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #F67669;
+    border: none;
+}
+
+.botao {
+    color: #FFF;
+    font-family: 'Staatliches';
+    font-size: 20px;
 }

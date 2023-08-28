@@ -16,24 +16,27 @@
         <img src="./Imagens/img1.svg" alt="Um balão de pensamento com 5 estrelas em seu interior, simbolizando a nota que a pessoa dará ao seu mentor">
     </header>
     <main>
+        <legend class="anti-form">INFORMAÇÕES PESSOAIS</legend>
         <form id="form-advanced">
             <fieldset>
-                <legend>INFORMAÇÕES PESSOAIS</legend>
+                <div class="col-2">
+                    <div class="input-wrapper">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome">
+                    </div>
+                </div>    
                 <div class="input-wrapper">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome">
-                </div>
-                <div class="input-wrapper">
-                    <label for="sobrenome">Sobrenome</label>
-                    <input type="text" id="sobrenome">
-                </div>
-                <div class="input-wrapper">
-                    <label for="email">Email</label>
+                    <label for="email">Email<span>(digite um email válido)</span></label>
                     <input type="email" id="email">
                 </div>
             </fieldset>
             <fieldset>
-                <legend>INFORMAÇÕES DO MENTOR</legend>
+                <h3>INFORMAÇÕES DO MENTOR</h3>
+                <hr>
                 <div class="input-wrapper">
                     <label for="nome-mentor">Selecione quem foi o seu mentor</label>
                     <select id="nome-mentor">
@@ -52,21 +55,24 @@
                 </div>
             </fieldset>
             <fieldset>
-                <legend>AGENDANDO PRÓXIMA MENTORIA</legend>
-                <div class="input-wrapper">
-                    <label for="data">Data</label>
-                    <input type="date" id="data">
-                </div>
-                <div class="input-wrapper">
-                    <label for="hora-inicial">Das</label>
-                    <input type="time" id="hora-inicial">
-                </div>
-                <div class="input-wrapper">
-                    <label for="hora-final">Até</label>
-                    <input type="time" id="hora-final">
-                </div>
+                <h3 class="h3-2">AGENDANDO PRÓXIMA MENTORIA</h3>
+                <hr>
+                <div class="col-3">  
+                    <div class="input-wrapper">
+                        <label for="data">Data<span>(DD/MM/AAAA)</span></label>
+                        <input type="date" id="data">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="hora-inicial">Das</label>
+                        <input type="time" id="hora-inicial">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="hora-final">Até</label>
+                        <input type="time" id="hora-final">
+                    </div>
+                </div>     
             </fieldset>
-            <button>
+            <button class="botao">
                 Salvar
             </button>
         </form>
