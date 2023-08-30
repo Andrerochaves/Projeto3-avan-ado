@@ -48,7 +48,7 @@ form {
     height: 1075px;
     margin-top: 0;
     padding: 64px;
-    border: 1px solid red; 
+    border: 1px solid #C1BCCC;
     border-radius: 0 0 20px 20px;
     background: #FFF;
     margin-left: 345px;
@@ -162,9 +162,17 @@ hr {
     border: 1px solid #E6E6F0;
 }
 
-#caixaselecao {
-    width: 24px;
-    height: 24px;
+#caixa-selecao {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    position: relative;
+    bottom: 21px;
+    opacity: 0.5;
+}
+
+.checkbox-wrapper label {
+    margin-left: 30px;
 }
 
 .col-3 {
